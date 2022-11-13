@@ -1,4 +1,6 @@
 const puppeteer = require("puppeteer-core");
+
+require("dotenv").config();
 const url = "https://fr.indeed.com/";
 
 //require executablePath from puppeteer
